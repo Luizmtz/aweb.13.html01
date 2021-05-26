@@ -7,6 +7,130 @@
     <title>Práctica 01 HTML</title>
 </head>
 <body>
+
+    <h1>Tablas</h1>
+    <table border="1" width="100%">
+        <tr>
+            <td width="20%" rowspan="2">
+                <img src="usericon.png" alt="Luis Martinez" width="100%">
+            </td>
+            <td>
+                <center>
+                    <h1>Luis Martínez Altamirano</h1>
+                </center>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h3>Semblanza</h3>
+                <p>Soy una persona que le gusta programar y que en sus inicios batallo demasiado programando <abbr title="Java">Java</abbr><p><em>por que es dificil.</em></p></p>
+                <address><p>Todo esto de programar salio de un profesor que me menciono</p> <cite>Vas a poder o no?</cite></address>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+               <center> <h2>Hobbies</h2>
+               <table border="1" width=80%">
+                   <thead>
+                       <tr>
+                           <th>Nombre</th>
+                           <th>Descripcion</th>
+                           <th>Nivel</th>
+                       </tr>
+                   </thead>
+                   <tbody>
+                       <tr>
+                           <td>Ver series</td>
+                           <td>Mirar netflix</td>
+                           <td>Mayor</td>
+                       </tr>
+                       <tr>
+                           <td>Jugar videjueos</td>
+                           <td>Partida de COD</td>
+                           <td>Medio</td>
+                       </tr>
+                       <tr>
+                        <td>Hacer quehacer</td>
+                        <td>Levantar mi cuarto</td>
+                        <td>Medio</td>
+                    </tr>
+                   </tbody>
+               </table>
+            </center>
+            </td>
+        </tr>
+
+    </table>
+    <table border="1" width="100" > 
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Nombre</th>
+                <th>Primer apellido</th>
+                <th>Segundo apellido</th>
+                <th>Estado civil</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Luis</td>
+                <td cols="2">Martinez</td>
+                <td rowspan="2"> Casado</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Juan</td>
+                <td>Lazaro</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>José</td>
+                <td>Vega</td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+    <hr/>
+    <h1>Listas</h1>
+    <h2>Listas ordenadas</h2>
+    <p>Me permiten generar viñetas enumeradas de distintos</p>
+    <ol type="A" type="i" reversed>
+        <li>Gustavo</li>
+        <li>Carlos</li>
+        <li>Gustavo</li>
+    </ol>
+    <ol>
+        <p>um dolor sit amet consectetur adipiscing el</p>
+    </ol>
+    <ol start="4">
+        <li>Liz</li>
+        <li>Tania</li>
+    </ol>
+
+    <h2>Lista no ordenada</h2>
+    <ul>
+        <li>Aprobados:
+            <ol>
+                <li>Jose</li>
+                <li>Liz</li>
+                <li>Tania</li>
+            </ol>
+        </li>
+        <li>Reprobados:
+            <ol>
+                <li>Gustavo</li>
+                <li>Carlos</li>
+            </ol>
+        </li>
+    </ul>
+
+
+
+    <p>Escribir un texto</p>
+    <hr/>
     <h1>Primer práctica</h1>
     <h2>Alumno: Luis Martínez</h2>
     <h3>Materia: Aplicaciones Web</h3>
@@ -14,5 +138,19 @@
     <h5>Grado: 3ro</h5>
     <h6>Unidad: 2 - Desarrollo FrontEnd</h6>
     <p>Simple contenido</p>
+    
+    <p>-<strong>Lorem ipsum dolor sit amet consectetur adipiscing elit interdum, sociis magna ad condimentum enim pellentesque iaculis, euismod ultrices malesuada venenatis fringilla vitae purus. Quam commodo tellus etiam ad metus magnis fringilla, euismod mi fermentum tortor pulvinar pharetra nulla cubilia, lacus mus vehicula mollis malesuada aptent. Fermentum aptent aliquet sapien sagittis ante class augue, mus sem dignissim erat id velit himenaeos pellentesque, ridiculus habitasse pretium cras dui sodales. Dictum luctus eu arcu nisi posuere dui elementum platea quis ridiculus, et enim malesuada convallis at sollicitudin morbi rutrum aenean.</strong>-</p>
+   
+    <p><b>Lorem ipsum </b>dolor sit amet consectetur adipiscing elit interdum, sociis magna ad condimentum enim pellentesque iaculis, euismod ultrices malesuada venenatis fringilla vitae purus. Quam commodo tellus etiam ad metus magnis fringilla, euismod mi fermentum tortor pulvinar pharetra nulla cubilia, lacus mus vehicula mollis malesuada aptent. Fermentum aptent aliquet sapien sagittis ante class augue, mus sem dignissim erat id velit himenaeos pellentesque, ridiculus habitasse pretium cras dui sodales. Dictum luctus eu arcu nisi posuere dui elementum platea quis ridiculus, et enim malesuada convallis at sollicitudin morbi rutrum aenean.</p>
+    
+    <em>um dolor sit amet consectetur adipiscing el</em>
+
+    <big>um dolor sit amet consectetur adipiscing el</big>
+    <small>um dolor sit amet consectetur adipiscing el</small>
+
+    <sub>um dolor sit amet consectetur adipiscing el</sub>
+    <sup>um dolor sit amet consectetur adipiscing el</sup>
+
+    <p><sub>Hola</sub><strong>Como estas</strong></p>
 </body>
 </html>
